@@ -1,0 +1,51 @@
+main{
+    width:80%;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(255, 240, 213);
+}
+main>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>div>div{
+    width: 33%;
+    margin-bottom: 2rem;
+}
+main>div>div>img{
+width: 70%;
+height: 10rem;
+}
+main>div>div>h3{
+
+    width:50rem
+}
+main>div>div>h2{
+   margin-left: 1rem;
+}
+main>div>div>button{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    width: 5rem;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+footer>button{
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    width: 10rem;
+}
+footer>button:active{
+    background-color: rgb(182, 230, 243);
+}
